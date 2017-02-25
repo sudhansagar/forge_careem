@@ -80,4 +80,4 @@
   
    Cron Jobs
   ----------
-  A cron Jobs keeps running to fetch gps points 
+ A cron Jobs keeps running to fetch gps points from drivers move while in a job and store in the DB. 
