@@ -62,3 +62,16 @@
   RATING                   VARCHAR(1)
 	
  
+
+
+  Technology and Tools 
+  ------------------------
+  
+  - RESTfull services(Jersey)
+  - Spring Data JPA
+  - Google APIs
+  - Apache Maven
+  - MySql
+  - HA Proxy
+  - JBoss Application Server
+  -Message Broker (JMS/RabbitMQ/ActiveMQ)
