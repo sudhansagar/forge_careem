@@ -80,7 +80,7 @@
  A cron Jobs keeps running to fetch gps points from drivers move while in a job and store in the DB. 
 
 
- -Google Map API will be implementation
+ Google Map API will be implementation
   1. Distance Matrix
     API URL : https://developers.google.com/maps/documentation/distance-matrix/intro
     DESC : Distance will be calculated between the customer and drivers, by using this we should be able to decide which driver is near by to the customer
@@ -89,8 +89,16 @@
     DESC : Direction will me mapped on map between customer and driver
 
 
-- Load balancer
+ Load balancer
    HA Proxy will be configured in the system which acts as a host communcating with jboss nodes 
 
-- JBoss multiple nodes will be created 
+ JBoss multiple nodes will be created 
+
+ Algorithm to dispatch the job to driver will on the basis of 
+	----------------------------------------------------------------------------------
+	Ratings for that driver. 
+	Probability of the driver cancelled the job.
+	Probability of the driver starts from receiving the job. 
+	Driver drives over speed and rash drive. 
+
 
