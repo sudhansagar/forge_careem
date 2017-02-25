@@ -77,3 +77,7 @@
   - HA Proxy
   - JBoss Application Server
   -Message Broker (JMS/RabbitMQ/ActiveMQ)
+  
+   Cron Jobs
+  ----------
+  A cron Jobs keeps running to fetch gps points 
